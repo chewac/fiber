@@ -1,9 +1,12 @@
 @media only screen and (max-width: 600px) {
   body {
     /*       background-color: lightblue;  */
-    transform: scale(0.8);
+    transform: scale(0.8);  
   }
+  
 }
+
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -17,6 +20,7 @@ html {
 body {
   font-size: 1.6rem;
 }
+
 
 .horizontal-collapse {
   width: 100%;
