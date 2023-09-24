@@ -1,14 +1,18 @@
 @media only screen and (max-width: 600px) {
   body {
     /*       background-color: lightblue;  */
-    transform: scale(0.9);  
+
+    transform: scale(0.8);
+
   }
-  
+
 }
 
 
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -31,12 +35,14 @@ body {
   margin-bottom: 5rem;
   color: #fff;
 }
+
 .horizontal-collapse__inner {
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: row;
 }
+
 .horizontal-collapse__item {
   min-height: 42rem;
   list-style: none;
@@ -47,30 +53,39 @@ body {
   position: relative;
   transition: width 0.5s;
 }
+
 .horizontal-collapse__item--1 {
   background-color: yellow;
 }
+
 .horizontal-collapse__item--2 {
   background-color: grey;
 }
+
 .horizontal-collapse__item--3 {
   background-color: pink;
 }
+
 .horizontal-collapse__item--4 {
   background-color: rgb(14, 255, 14);
 }
+
 .horizontal-collapse__item--5 {
   background-color: rgb(0, 140, 255);
 }
+
 .horizontal-collapse__item.is-active .horizontal-collapse__inactive-content {
   opacity: 0;
 }
+
 .horizontal-collapse__item.is-active .horizontal-collapse__active-content {
   opacity: 1;
 }
+
 .horizontal-collapse__item-inner {
   padding: 3rem;
 }
+
 .horizontal-collapse__inactive-content {
   opacity: 1;
   transition: opacity 0.5s;
@@ -78,33 +93,38 @@ body {
   bottom: 2rem;
   left: 1rem;
 }
+
 .horizontal-collapse__inactive-content .horizontal-collapse__heading {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: default;
   font-size: 3rem;
   line-height: 0;
   margin-bottom: 0;
   -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   -webkit-text-orientation: mixed;
-          text-orientation: mixed;
+  text-orientation: mixed;
   transform: rotate(180deg);
 }
+
 .horizontal-collapse__active-content {
   opacity: 0;
   transition: opacity 0.5s;
   cursor: default;
 }
+
 .horizontal-collapse__heading {
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
 .horizontal-collapse__body {
   margin-bottom: 2rem;
 }
+
 .horizontal-collapse__link {
   display: inline-block;
   background-color: #fff;
