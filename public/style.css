@@ -55,23 +55,23 @@ body {
 }
 
 .horizontal-collapse__item--1 {
-  background-color: gold;
+  background-color: #ff69eb;
 }
 
 .horizontal-collapse__item--2 {
-  background-color: grey;
+  background-color: #ff86c8;
 }
 
 .horizontal-collapse__item--3 {
-  background-color: blue;
+  background-color: #ffa3a5;
 }
 
 .horizontal-collapse__item--4 {
-  background-color: green;
+  background-color: #ffbf81;
 }
 
 .horizontal-collapse__item--5 {
-  background-color: red;
+  background-color: ffdce5;
 }
 
 .horizontal-collapse__item.is-active .horizontal-collapse__inactive-content {
